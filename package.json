@@ -83,4 +83,8 @@
     "@humanwhocodes/object-schema": "npm:@eslint/object-schema@latest",
     "inflight": "^2.0.1"
   }
+},
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
 }
